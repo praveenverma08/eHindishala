@@ -1,0 +1,113 @@
+
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #E5E3C9;
+
+}
+
+h1{
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #000;
+}
+
+h2{
+  font-family:"Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 2;
+
+}
+
+h3{
+  font-family:"Montserrat-Bold";
+  text-align: center;
+  padding: 5% 3% 5% 0;
+  font-size: 3.5rem;
+}
+
+
+p{
+  text-align: center;
+  color: #000;
+  line-height: 2;
+}
+
+.e{
+  color: #139487;
+}
+.hindi{
+  color: #1C658C;
+}
+.shala{
+  color: #D29D2B;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 5px;
+/*  font-weight: bold; */
+position: relative;
+left: 1000px;
+}
+
+#testimonials{
+  text-align: left;
+  background-color: #000;
+  color: #fff;
+  padding: 5%;
+margin: 0;
+margin-left: auto;
+}
+.image{
+position: relative;
+left: 700px;
+bottom: 160px;
+width: 600px;
+height: 400px;
+}
+
+.classroom_pic{
+  padding: 0% 0 20% 10%;
+}
+
+.intro{
+  padding: 5% 6% 0 0;
+  color: #BB6464;
+  text-align: left;
+}
+
+.p1{
+  padding: 5% 3% 3% 5%;
+}
+.p2{
+  text-align: left;
+  padding:0 6% 3% 0;
+  line-height: 2;
+}
+.nobull{
+  list-style-type: none;
+padding: 5% 5% 20% 5%;
+
+}
+.boy_pic{
+  padding-top: 10%;
+}
+
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}

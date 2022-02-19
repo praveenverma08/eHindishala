@@ -1,0 +1,74 @@
+
+body{
+  /* padding: 5% 0 0 5%; */
+  background-image: url(https://media.istockphoto.com/photos/white-question-mark-in-front-of-white-wall-picture-id1200569046?b=1&k=20&m=1200569046&s=612x612&w=0&h=DVAWoj12IalAnMHBSKiVo2GZTaQJAgf0WcLEh1WwT-g=);
+  background-repeat: no-repeat;
+  position: fixed;
+
+  background-size: cover;
+  color: #fff;
+  font-family: "Montserrat";
+
+}
+#demo{
+  color: #000;
+  text-align: left;
+  margin: 25px;
+  /* padding: 15px 25px 15px 40px; */
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 5px;
+  /*font-weight: bold;*/
+position: relative;
+left: 1000px;
+}
+
+.btn{
+  width: 600px;
+  background-color: #94B49F;
+  padding: 15px 25px 15px 25px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /* margin: 0px 40px; */
+     color: #524A4E;
+     position: relative;
+     left: 40px;
+     border-style: none;
+}
+.btn:hover{
+  color: #F7ECDE;
+  background-color: #323232;
+}
+
+.collapse.in {
+    display: inline;
+}
+
+
+.list-group-item {
+    /* position: relative; */
+    /* display: inline-flex; */
+    width: 40%;
+    /* padding: 15px 35px; */
+    margin-bottom: -1px;
+    margin-left: 36px;
+    margin-top: 15px;
+    background-color: #fff;
+    border-style: none;
+    color: #000;
+    text-align: left;
+
+    /* font-size: 1.8rem; */
+    /* font-family: 'Roboto Regular'; */
+}

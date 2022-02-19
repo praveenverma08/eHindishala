@@ -1,0 +1,108 @@
+body{
+   /* background-image: url(https://images.unsplash.com/photo-1585974738771-84483dd9f89f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80); */
+background-image: url(https://navneetvishwas.com/wp-content/uploads/2018/09/contact-background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: #fff;
+font-family: "Montserrat";
+}
+
+
+.contact{
+  font-size: 2.5rem;
+  text-align: left;
+  padding-left: 40%;
+  color: #EEEEEE;
+  }
+
+  .free{
+    text-align: center;
+    color: #EF6D6D;
+    font-size: 1.5rem;
+  }
+
+  .form{
+    padding-left: 300px;
+    line-height: 1.5;
+
+
+  }
+.text_line{
+  background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+}
+
+.details{
+  background-color: red;
+}
+.nobull{
+  list-style-type: none;
+  color: #EEEEEE;
+  padding: 10% 20% 2% 10%;
+  font-size: 20px;
+
+}
+.navbar{
+  /* padding-bottom: 1.5rem; */
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 5px;
+  /*font-weight: bold;*/
+position: relative;
+left: 1000px;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  color: #fff;
+}
+.navbar-light .navbar-brand{
+  color: #fff;
+
+}
+
+.btn{
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #9AD0EC 5%, #9AD0EC 100%);
+	background-color:#9AD0EC;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+  width: 150px;
+  margin: 5px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #7897AB 5%, #7897AB 100%);
+	background-color:#7897AB;
+  color: #EF6D6D;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  /* background-color: DarkSalmon; */
+  color: white;
+}
